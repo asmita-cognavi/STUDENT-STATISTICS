@@ -132,7 +132,7 @@ def process_csv(input_csv, output_csv, api_url, api_key, start_idx=0, end_idx=No
 input_csv = 'combined_file.csv'  # Your input CSV with resume_link column
 output_csv = 'education_data.csv'  # Output file name as requested
 api_url = 'https://qybjmp1bnc.execute-api.ap-south-1.amazonaws.com/default/resume-parser-v2'
-api_key = 'V1CK8aoZJS8THvYbfkVv12x8KZKv0kPm1v8nF3J1'
+api_key = 'key'
 
 # Define your batch range here (e.g., 500-1000)
 start_idx = 3500  # Starting row index (0-based)
